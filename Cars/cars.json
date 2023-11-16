@@ -1,0 +1,247 @@
+[
+    {
+        "image": "Mercedes-Benz 300 SL",
+        "title": "Mercedes-Benz 300 SL",
+        "start_production": 1957,
+        "class": "Sports car, GT",
+        "desc": "The Mercedes-Benz 300 SL (chassis code W 198) is a two-seat sports car that was produced by Mercedes-Benz from 1954 to 1957 as a gullwinged coupé and from 1957 to 1963 as a roadster. The 300 SL traces its origins to the company's 1952 racing car, the W194, and was equipped with a mechanical direct fuel injection system that significantly increased the power output of its three-liter overhead camshaft straight-six engine."
+    },
+    {
+        "image": "Vauxhall Chevette",
+        "title": "Vauxhall Chevette",
+        "start_production": 1975,
+        "class": "Supermini",
+        "desc": "The Vauxhall Chevette is a supermini car that was manufactured by Vauxhall in the United Kingdom from 1975 to 1984. It was Vauxhall's version of the T-Car small-car family from Vauxhall's parent General Motors (GM), and based primarily on the Opel Kadett C. The family also included the Isuzu Gemini in Japan, the Holden Gemini in Australia, the Chevrolet Chevette in the United States, Canada, Brazil, Colombia, Ecuador and Argentina, and in the U.S. and Canada it was also rebadged as the Pontiac Acadian/Pontiac T1000."
+    },
+    {
+        "image": "Plymouth Superbird",
+        "title": "Plymouth Superbird",
+        "start_production": 1970,
+        "class": "Muscle car(today) and Race car(Past)",
+        "desc": "The Plymouth Superbird is a highly modified, short-lived version of the Plymouth Road Runner with applied graphic images as well as a distinctive horn sound both referencing the popular Looney Tunes cartoon character the Road Runner. It was the factory's follow-up stock car racing design, for the 1970 season, to the Dodge Charger Daytona of 1969, and incorporated many engineering changes and modifications (both minor and major) garnered from the Daytona's season in competition"
+    },
+    {
+        "image": "AMC Javelin",
+        "title": "AMC Javelin",
+        "start_production": 1967,
+        "class": "Unbulleted list",
+        "desc": "The AMC Javelin is an American front-engine, rear-wheel-drive, two-door hardtop automobile manufactured by American Motors Corporation (AMC) across two generations, 1968 through 1970 and 1971 through 1974 model years. The car was positioned and marketed in the pony car market segment."
+    },
+    {
+        "image": "Chevrolet Chevette",
+        "title": "Chevrolet Chevette",
+        "start_production": 1975,
+        "class": "Subcompact",
+        "desc": "The Chevrolet Chevette is a front-engine, rear-drive subcompact manufactured and marketed by Chevrolet for model years 1976–1987 as a three-door or five-door hatchback. Introduced in North America in September 1975, the Chevette superseded the Vega as Chevrolet's entry-level subcompact, and sold 2.8 million units over 12 years. The Chevette was the best-selling small car in the U.S. for model years 1979 and 1980."
+    },
+    {
+        "image": "Pontiac Catalina",
+        "title": "Pontiac Catalina",
+        "start_production": 1950,
+        "class": "Full-size",
+        "desc": "The Pontiac Catalina is a full-size, junior series automobile produced by Pontiac from 1950 to 1981. Initially, the name was a trim line on hardtop body styles, first appearing in the 1950 Chieftain Eight and DeLuxe Eight lines. In 1959, it became a separate model as the entry-level full-size Pontiac."
+    },
+    {
+        "image": "Oldsmobile Toronado",
+        "title": "Oldsmobile Toronado",
+        "start_production": 1965,
+        "class": "Full-size personal luxury car",
+        "desc": "The Oldsmobile Toronado is a personal luxury car manufactured and marketed by the Oldsmobile division of General Motors from 1966 to 1992 over four generations. The Toronado was noted for its transaxle version of GM's Turbo-Hydramatic transmission, making it the first U.S.-produced front-wheel drive automobile since the demise of the Cord 810/812 in 1937."
+    },
+    {
+        "image": "Mazda MX-5",
+        "title": "Mazda MX-5",
+        "start_production": 1989,
+        "class": "Sports car Roadster",
+        "desc": "Mazda MX-5 / Miata is a roadster that appeared in 1989, produced by Mazda. The development was carried out jointly with engineers from Lotus Cars [source not specified 1189 days], as a result the car inherited the main features of classic British sports cars (light weight, engine inside the wheelbase, rear-wheel drive, simplicity of design)."
+    },
+    {
+        "image": "Porsche Cayenne",
+        "title": "Porsche Cayenne",
+        "start_production": 2002,
+        "class": "Mid-size luxury crossover SUV",
+        "desc": "The Porsche Cayenne is a five-seat mid-size sports crossover produced by the German automobile manufacturer Porsche. The car was created with the active participation of the Volkswagen concern. It was first presented to the public in December 2002. Production and sales of the first generation (Type 955/9PA) began in 2003 in North America. The model name, Cayenne, is derived from the capital of French Guiana."
+    },
+    {
+        "image": "Ford Crown Victoria",
+        "title": "Ford Crown Victoria",
+        "start_production": 1992,
+        "class": "Full-size Ford",
+        "desc": "The Ford Crown Victoria (Crown Vic) is a full-size sedan that was marketed and manufactured by Ford. The successor to the Ford LTD Crown Victoria, two generations of the model line were produced from the 1992 until the 2012 model years. The Ford counterpart of the Mercury Grand Marquis, the Crown Victoria was the largest sedan marketed by Ford in North America, slotted above the Ford Taurus."
+    },
+    {
+        "image": "Dymaxion car",
+        "title": "Dymaxion car",
+        "start_production": 1983,
+        "class": "Concept car",
+        "desc": "The Dymaxion car was designed by American inventor Buckminster Fuller during the Great Depression and featured prominently at Chicago's 1933/1934 World's Fair. Fuller built three experimental prototypes with naval architect Starling Burgess – using donated money as well as a family"
+    },
+    {
+        "image": "Saab 9000",
+        "title": "Saab 9000",
+        "start_production": 1984,
+        "class": "Executive car",
+        "desc": "Saab 9000 is the first business class car of the Swedish company Saab, produced from 1984 to 1998. Subsequently replaced by the 9-5 model. It was the first business class car from Saab. Despite the fact that the overall length of the 9000 is less than the length of the 900, the “nine thousandth” has a longer wheelbase and its interior is more spacious. Unlike the 900, the ignition switch is located on the steering column, rather than in the tunnel between the front seats."
+    },
+    {
+        "image": "Pontiac Sunfire",
+        "title": "Pontiac Sunfire",
+        "start_production": 1994,
+        "class": "Compact",
+        "desc": "The Pontiac Sunfire is a compact car by Pontiac that was introduced for the 1995 model year to replace the Sunbird. Not only was the name changed, but dramatic styling changes were included as well. The new styling was shared with the redesigned Chevrolet Cavalier. The J platform was updated structurally to meet more stringent safety standards for the 1996 model year."
+    },
+    {
+        "image": "Jaguar X-Type",
+        "title": "Jaguar X-Type",
+        "start_production": 2001,
+        "class": "Compact executive car",
+        "desc": "The Jaguar X-Type is a car built by British marque Jaguar from 2001 to 2009. Considered a large family car in Europe and a compact car in the US, the X-Type was part of the compact-executive market segment and was sold in four-door saloon and five-door estate body styles. Given the internal designation X400,[citation needed] it was front engined and sold with both front-wheel drive and all-wheel drive variants."
+    },
+    {
+        "image": "Volkswagen Phaeton",
+        "title": "Volkswagen Phaeton",
+        "start_production": 2002,
+        "class": "Full-size luxury car",
+        "desc": "The Volkswagen Phaeton is the first executive (F) class car in the entire 70-year history of Volkswagen. From 2002 to 2016, manual assembly was carried out at the Gläserne Manufaktur plant in Dresden in Germany. The prototype of the car, under the working title Concept D, was first presented in 1999 at the Frankfurt Motor Show. Since April 2007, it has been the first luxury car to meet environmental standards with a V6-TDI diesel engine (V-shaped turbodiesel)."
+    },
+    {
+        "image": "Pontiac G6",
+        "title": "Pontiac G6",
+        "start_production": 2004,
+        "class": "Midsize",
+        "desc": "The G6 shared the GM Epsilon platform with the Chevrolet Malibu, Saab 9-3 and other General Motors vehicles. Features included a remote starting system (standard on GT, optional on base model), traction control/ABS, electronic stability control, automatic headlights as well as a panoramic sunroof option. A retractable hardtop convertible was offered for model years 2006-2009. Production ended in 2010 with the discontinuation of the Pontiac line."
+    },
+    {
+        "image": "Ford Five Hundred",
+        "title": "Ford Five Hundred",
+        "start_production": 2004,
+        "class": "Full-size",
+        "desc": "The Ford Five Hundred is a full-size automobile that was manufactured and marketed by Ford from 2004 to 2007, and debuted as a 2005 model year vehicle. Deriving its nameplate from the 500 suffix used by Ford on the Custom 500, Fairlane 500 and Galaxie 500 model ranges from the 1950s to 1970s, the Five Hundred was the larger of two model lines intended to replace the Ford Taurus (the Ford Fusion being the smaller vehicle)."
+    },
+    {
+        "image": "Pontiac Solstice",
+        "title": "Pontiac Solstice",
+        "start_production": 2005,
+        "class": "Roadster, coupe",
+        "desc": "The Pontiac Solstice is a sports car that was produced by Pontiac. Introduced at the 2004 North American International Auto Show, the Solstice roadster began production in Wilmington, Delaware, starting in mid-2005 for the 2006 model year. It is powered by a naturally aspirated 2.4 L I4 engine, producing 177 hp (132 kW) and 166 lb⋅ft (225 N⋅m) of torque. The exterior styling of the production"
+    },
+    {
+        "image": "Fiat Tipo",
+        "title": "Fiat Tipo",
+        "start_production": 1988,
+        "class": "Small family car",
+        "desc": "This innovative car was presented to journalists on January 26, 1988 in an unusual way. Satellite TV linked Fiat's Turin office with press centers in Frankfurt, Madrid, London, Paris and Rome. After the press conference, all journalists had the opportunity to test the new car on the spot, and the following year it was voted the best in Europe."
+    },
+    {
+        "image": "Plymouth Reliant",
+        "title": "Plymouth Reliant",
+        "start_production": 1981,
+        "class": "Mid-size",
+        "desc": "The Plymouth Reliant and Dodge Aries are mid size cars introduced for model year 1981 as the first K-cars manufactured and marketed by the Chrysler Corporation. The Reliant and Aries were the smallest cars to have the traditional 6 passenger 2 bench seat with column shifter seating arrangement favored by customers in the United States (Chrysler marketed the car as being able to seat six Americans)"
+    },
+    {
+        "image": "Chevrolet Corsica",
+        "title": "Chevrolet Corsica",
+        "start_production": 1987,
+        "class": "Compact car",
+        "desc": "The Chevrolet Corsica (named after Corsica, France) is a front-wheel drive compact car that was produced by Chevrolet from 1987 until 1996. The Corsica was built upon the L-body platform. It shared the L-body with the 2-door Beretta, and the rebadged revival of the Pontiac Tempest which was"
+    },
+    {
+        "image": "Mazda MX-3",
+        "title": "Mazda MX-3",
+        "start_production": 1991,
+        "class": "Sport compact",
+        "desc": "The Mazda MX-3 is a four-seat, front wheel drive coupé manufactured and marketed by Mazda, introduced at the Geneva Auto Show in March 1991 and marketed for model years 1992–1998. The MX-3 was also marketed as the Mazda MX-3 Precidia in Canada and as the Eunos Presso, Autozam AZ-3 and Mazda AZ-3 in Japan. In Australia it was marketed as the Eunos 30X until late 1996 when it became the Mazda-Eunos 30X."
+    },
+    {
+        "image": "TVR Tuscan Speed Six",
+        "title": "TVR Tuscan Speed Six",
+        "start_production": 1999,
+        "class": "Sports car",
+        "desc": "The Tuscan Speed Six was introduced in 1999 and was available for media demonstration in 2000. The reason being then owner Peter Wheeler imposing a ban on press reviews of the car. Initially, the Tuscan Speed Six was fitted with the 4.0 litre version of the TVR Speed Six engine rated at 360 hp (268 kW) at 7,000 rpm and 420 N⋅m (310 lb⋅ft) of torque at 5,250 rpm."
+    },
+    {
+        "image": "Aston Martin DB9",
+        "title": "Aston Martin DB9",
+        "start_production": 2004,
+        "class": "Grand tourer",
+        "desc": "The Aston Martin DB9 is a grand tourer produced by Aston Martin. Available both in coupé and a convertible bodystyles, the latter being known as the Volante, the DB9 was the successor to the DB7. It was first shown at the 2003 Frankfurt Auto Show, and was the first model built at Aston Martin's Gaydon facility."
+    },
+    {
+        "image": "Chrysler Cirrus",
+        "title": "Chrysler Cirrus",
+        "start_production": 1994,
+        "class": "Mid-size",
+        "desc": "The Chrysler Cirrus is a mid-sized 4-door notchback sedan introduced by Chrysler motors for the 1995 model year. Built on the Chrysler JA platform, the 4-door notchback sedan joined Chrysler's roster of Cloud Car models drawing their names from meteorological terms, including the mid-priced Dodge Stratus it was based on introduced at the same time, and the low-priced Plymouth Breeze variant a year later."
+    },
+    {
+        "image": "Volkswagen Corrado",
+        "title": "Volkswagen Corrado",
+        "start_production": 1988,
+        "class": "Sport compact",
+        "desc": "The Volkswagen Corrado is a compact four passenger (2+2), three door, front-engine, front-wheel-drive liftback coupe marketed by Volkswagen from 1988 until 1995, and manufactured by Karmann in Osnabrück, Germany. Designed by Herbert Schäfer,[1] the Corrado overlapped and eventually superseded Volkswagen's Scirocco model. 97,521 Corrados were manufactured over the seven year production run; about 50,000 of them were sold in the United States"
+    },
+    {
+        "image": "Volvo V50",
+        "title": "Volvo V50",
+        "start_production": 2004,
+        "class": "Compact / Small family car",
+        "desc": "The Volvo V50 is the station wagon version of the Volvo S40 small family car first unveiled at the 2003 Bologna Motor Show, both assembled at Ghent, Belgium. Sharing the Volvo P1 platform with the European Ford Focus and the Mazda 3, the V50 featured interior theatre lighting, a floating center stack and Volvo Intelligent Vehicle Architecture."
+    },
+    {
+        "image": "Volkswagen Touareg",
+        "title": "Volkswagen Touareg",
+        "start_production": 2002,
+        "class": "Mid-size luxury crossover SUV",
+        "desc": "Volkswagen Touareg is a mid-size crossover from Volkswagen, produced since 2002. Currently, the car is produced at the Volkswagen plant in Bratislava (and previously in Kaluga). The Touareg became the third SUV in the history of the brand after the Volkswagen Tour 82 (Kübelwagen) and the Volkswagen Iltis. The car is named after the nomadic Tuareg people, inhabitants of the interior of the Sahara in North Africa."
+    },
+    {
+        "image": "Mitsubishi GTO",
+        "title": "Mitsubishi GTO",
+        "start_production": 1990,
+        "class": "Sports car, grand tourer",
+        "desc": "Mitsubishi 3000GT is a GT sports car from the Japanese company Mitsubishi Motors. Produced from 1990 to 2000. In the Japanese domestic market it was known as the Mitsubishi GTO. For North America, the car was further assembled by Chrysler and was named Dodge Stealth."
+    },
+    {
+        "image": "Cadillac Cimarron",
+        "title": "Cadillac Cimarron",
+        "start_production": 1981,
+        "class": "Compact",
+        "desc": "The Cadillac Cimarron is an entry-level luxury car manufactured and marketed by the Cadillac division of General Motors for model years 1982–1988 over a single generation, with a mild facelift in 1985. The first post-war compact car offered by the brand, the four-door was developed to compete with similarly-sized premium sedans marketed by European automakers in North America"
+    },
+    {
+        "image": "Dodge Daytona",
+        "title": "Dodge Daytona",
+        "start_production": 1984,
+        "class": "Compact",
+        "desc": "The Dodge Daytona is an automobile which was produced by the Chrysler Corporation under their Dodge division from 1984 until 1993. It was a front-wheel drive hatchback based on the Chrysler G platform, which was derived from the Chrysler K platform. The Chrysler Laser was an upscale rebadged version of the Daytona. The Daytona was restyled for 1987, and again for 1992. It replaced the Mitsubishi Galant-based Challenger, and slotted between the Charger and the Conquest. The Daytona was replaced by the 1995 Dodge Avenger, which was built by Mitsubishi Motors."
+    },
+    {
+        "image": "Cadillac Allanté",
+        "title": "Cadillac Allanté",
+        "start_production": 1986,
+        "class": "Luxury roadster",
+        "desc": "The Cadillac Allanté is a two-seater convertible coupe produced by the American brand Cadillac and co-developed by Pininfarina from 1987 to 1993 in 21,430 units. Intended to compete with equivalent European models such as the Jaguar XJS-V12 Convertible and the Mercedes-Benz 560SL, which were very successful on American soil1, it was, however, a commercial failure for the manufacturer."
+    },
+    {
+        "image": "Toyota Avensis",
+        "title": "Toyota Avensis",
+        "start_production": 1997,
+        "class": "Large family car",
+        "desc": "Toyota Avensis is a mid-size car from Toyota, produced from 1997 to 2018. The previous model is the Toyota Carina E in Europe since 1992."
+    },
+    {
+        "image": "Audi 80",
+        "title": "Audi 80",
+        "start_production": 1997,
+        "class": "Compact executive car",
+        "desc": "The Audi 80 is a mid-size car produced by the German car manufacturer Audi from 1966 to 1996. Initially, the model shared a platform with the Volkswagen Passat and was available as a sedan and station wagon (Avant version). The coupé and cabriolet, although they did not belong to the Audi 80 family, shared a common platform and many components."
+    },
+    {
+        "image": "Audi A2",
+        "title": "Audi A2",
+        "start_production": 1999,
+        "class": "Supermini",
+        "desc": "Audi A2 is a B-segment hatchback produced by the German car manufacturer Audi AG (part of the Volkswagen AG concern) from 1999 to 2005. One of the unique features of the model is its all-aluminum body, for which the A2 even won a design award. Despite this, it was not popular - about 173 thousand cars were sold. Despite this, various automotive publications gave the car a positive review."
+    }
+]

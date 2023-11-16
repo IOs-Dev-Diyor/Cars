@@ -1,0 +1,20 @@
+PODS:
+  - KDCircularProgress (1.5.4)
+  - SnapKit (5.6.0)
+
+DEPENDENCIES:
+  - KDCircularProgress
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - KDCircularProgress
+    - SnapKit
+
+SPEC CHECKSUMS:
+  KDCircularProgress: 98200c6b8e85d22bc04eb644721d3b1e12b0686b
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+
+PODFILE CHECKSUM: b4d8b28b0686fbb65463fb35a43aaca9ecd94afc
+
+COCOAPODS: 1.12.1

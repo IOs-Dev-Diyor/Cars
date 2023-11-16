@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C12E15F2AFDFD2A0026F84B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C12E15E2AFDFD2A0026F84B /* AppDelegate.swift */; };
+		5C12E1612AFDFD2A0026F84B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C12E1602AFDFD2A0026F84B /* SceneDelegate.swift */; };
+		5C12E1632AFDFD2A0026F84B /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C12E1622AFDFD2A0026F84B /* QuizViewController.swift */; };
+		5C12E1682AFDFD2C0026F84B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C12E1672AFDFD2C0026F84B /* Assets.xcassets */; };
+		5C12E16B2AFDFD2C0026F84B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C12E1692AFDFD2C0026F84B /* LaunchScreen.storyboard */; };
+		5C12E17C2AFE01580026F84B /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C12E1782AFE01580026F84B /* HomeTableViewCell.swift */; };
+		5C12E17D2AFE01580026F84B /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C12E1792AFE01580026F84B /* MainTabBar.swift */; };
+		5C12E17E2AFE01580026F84B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C12E17A2AFE01580026F84B /* HomeViewController.swift */; };
+		5C12E17F2AFE01580026F84B /* OldCarsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C12E17B2AFE01580026F84B /* OldCarsCollectionViewCell.swift */; };
+		5C12E1902AFE01A00026F84B /* BAttr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C12E1832AFE01A00026F84B /* BAttr.swift */; };
+		5C12E1912AFE01A00026F84B /* BaseFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C12E1842AFE01A00026F84B /* BaseFonts.swift */; };
+		5C12E1922AFE01A00026F84B /* BaseCustomViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C12E1852AFE01A00026F84B /* BaseCustomViews.swift */; };
+		5C12E1932AFE01A00026F84B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C12E1862AFE01A00026F84B /* BaseViewController.swift */; };
+		5C12E1942AFE01A00026F84B /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C12E1872AFE01A00026F84B /* BaseTableViewCell.swift */; };
+		5C12E1952AFE01A00026F84B /* BaseUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C12E1882AFE01A00026F84B /* BaseUtilities.swift */; };
+		5C12E1962AFE01A00026F84B /* BaseExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C12E1892AFE01A00026F84B /* BaseExtensions.swift */; };
+		5C12E1972AFE01A00026F84B /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C12E18A2AFE01A00026F84B /* BaseCollectionViewCell.swift */; };
+		5C12E1982AFE01A00026F84B /* BColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C12E18B2AFE01A00026F84B /* BColor.swift */; };
+		5C12E1992AFE01A00026F84B /* BaseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C12E18C2AFE01A00026F84B /* BaseModels.swift */; };
+		5C12E19A2AFE01A00026F84B /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C12E18D2AFE01A00026F84B /* TestViewController.swift */; };
+		5C12E19B2AFE01A00026F84B /* BaseDefaultViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C12E18E2AFE01A00026F84B /* BaseDefaultViews.swift */; };
+		5C12E19C2AFE01A00026F84B /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C12E18F2AFE01A00026F84B /* BaseView.swift */; };
+		5C12E19E2AFE01AE0026F84B /* cars.json in Resources */ = {isa = PBXBuildFile; fileRef = 5C12E19D2AFE01AE0026F84B /* cars.json */; };
+		5C12E1A12AFE02680026F84B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C12E1A02AFE02680026F84B /* Model.swift */; };
+		5C12E1A92AFE8AB10026F84B /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C12E1A82AFE8AB10026F84B /* SettingViewController.swift */; };
+		5C12E1AB2AFE956B0026F84B /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C12E1AA2AFE956B0026F84B /* AboutViewController.swift */; };
+		5C12E1B12AFF450C0026F84B /* CellTappedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C12E1B02AFF450C0026F84B /* CellTappedViewController.swift */; };
+		5C12E1B42B0201CA0026F84B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C12E1B32B0201CA0026F84B /* SearchViewController.swift */; };
+		8CEC5308F8677328AD5B2582 /* Pods_Cars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2329DBD431BF0992583F7A00 /* Pods_Cars.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2329DBD431BF0992583F7A00 /* Pods_Cars.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cars.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35D264C59232ACD090721D47 /* Pods-Cars.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cars.debug.xcconfig"; path = "Target Support Files/Pods-Cars/Pods-Cars.debug.xcconfig"; sourceTree = "<group>"; };
+		57CEA9DE6D581EBB90D267C1 /* Pods-Cars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cars.release.xcconfig"; path = "Target Support Files/Pods-Cars/Pods-Cars.release.xcconfig"; sourceTree = "<group>"; };
+		5C12E15B2AFDFD2A0026F84B /* Curres Volantes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Curres Volantes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C12E15E2AFDFD2A0026F84B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C12E1602AFDFD2A0026F84B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5C12E1622AFDFD2A0026F84B /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		5C12E1672AFDFD2C0026F84B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C12E16A2AFDFD2C0026F84B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C12E16C2AFDFD2C0026F84B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C12E1782AFE01580026F84B /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		5C12E1792AFE01580026F84B /* MainTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
+		5C12E17A2AFE01580026F84B /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5C12E17B2AFE01580026F84B /* OldCarsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OldCarsCollectionViewCell.swift; sourceTree = "<group>"; };
+		5C12E1832AFE01A00026F84B /* BAttr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BAttr.swift; sourceTree = "<group>"; };
+		5C12E1842AFE01A00026F84B /* BaseFonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseFonts.swift; sourceTree = "<group>"; };
+		5C12E1852AFE01A00026F84B /* BaseCustomViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCustomViews.swift; sourceTree = "<group>"; };
+		5C12E1862AFE01A00026F84B /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		5C12E1872AFE01A00026F84B /* BaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		5C12E1882AFE01A00026F84B /* BaseUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseUtilities.swift; sourceTree = "<group>"; };
+		5C12E1892AFE01A00026F84B /* BaseExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseExtensions.swift; sourceTree = "<group>"; };
+		5C12E18A2AFE01A00026F84B /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		5C12E18B2AFE01A00026F84B /* BColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BColor.swift; sourceTree = "<group>"; };
+		5C12E18C2AFE01A00026F84B /* BaseModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModels.swift; sourceTree = "<group>"; };
+		5C12E18D2AFE01A00026F84B /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		5C12E18E2AFE01A00026F84B /* BaseDefaultViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseDefaultViews.swift; sourceTree = "<group>"; };
+		5C12E18F2AFE01A00026F84B /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		5C12E19D2AFE01AE0026F84B /* cars.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cars.json; sourceTree = "<group>"; };
+		5C12E1A02AFE02680026F84B /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		5C12E1A82AFE8AB10026F84B /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		5C12E1AA2AFE956B0026F84B /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		5C12E1B02AFF450C0026F84B /* CellTappedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTappedViewController.swift; sourceTree = "<group>"; };
+		5C12E1B32B0201CA0026F84B /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C12E1582AFDFD2A0026F84B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CEC5308F8677328AD5B2582 /* Pods_Cars.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C12E1522AFDFD2A0026F84B = {
+			isa = PBXGroup;
+			children = (
+				5C12E15D2AFDFD2A0026F84B /* Cars */,
+				5C12E15C2AFDFD2A0026F84B /* Products */,
+				93D5E1682E85445C982D77E1 /* Pods */,
+				8F1863F9D82D52A30159999D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5C12E15C2AFDFD2A0026F84B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C12E15B2AFDFD2A0026F84B /* Curres Volantes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C12E15D2AFDFD2A0026F84B /* Cars */ = {
+			isa = PBXGroup;
+			children = (
+				5CF4F3152B03EB7E008C9B09 /* Quiz */,
+				5C12E1A72AFE8A870026F84B /* Sitting */,
+				5C12E19F2AFE02680026F84B /* Model */,
+				5C12E1772AFE01580026F84B /* Home */,
+				5C12E1822AFE01A00026F84B /* Base */,
+				5C12E1602AFDFD2A0026F84B /* SceneDelegate.swift */,
+				5C12E15E2AFDFD2A0026F84B /* AppDelegate.swift */,
+				5C12E19D2AFE01AE0026F84B /* cars.json */,
+				5C12E1672AFDFD2C0026F84B /* Assets.xcassets */,
+				5C12E1692AFDFD2C0026F84B /* LaunchScreen.storyboard */,
+				5C12E16C2AFDFD2C0026F84B /* Info.plist */,
+			);
+			path = Cars;
+			sourceTree = "<group>";
+		};
+		5C12E1772AFE01580026F84B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5C12E1782AFE01580026F84B /* HomeTableViewCell.swift */,
+				5C12E17A2AFE01580026F84B /* HomeViewController.swift */,
+				5C12E17B2AFE01580026F84B /* OldCarsCollectionViewCell.swift */,
+				5C12E1B02AFF450C0026F84B /* CellTappedViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5C12E1822AFE01A00026F84B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				5C12E1832AFE01A00026F84B /* BAttr.swift */,
+				5C12E1842AFE01A00026F84B /* BaseFonts.swift */,
+				5C12E1852AFE01A00026F84B /* BaseCustomViews.swift */,
+				5C12E1862AFE01A00026F84B /* BaseViewController.swift */,
+				5C12E1872AFE01A00026F84B /* BaseTableViewCell.swift */,
+				5C12E1882AFE01A00026F84B /* BaseUtilities.swift */,
+				5C12E1892AFE01A00026F84B /* BaseExtensions.swift */,
+				5C12E18A2AFE01A00026F84B /* BaseCollectionViewCell.swift */,
+				5C12E18B2AFE01A00026F84B /* BColor.swift */,
+				5C12E18C2AFE01A00026F84B /* BaseModels.swift */,
+				5C12E18D2AFE01A00026F84B /* TestViewController.swift */,
+				5C12E18E2AFE01A00026F84B /* BaseDefaultViews.swift */,
+				5C12E18F2AFE01A00026F84B /* BaseView.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		5C12E19F2AFE02680026F84B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5C12E1A02AFE02680026F84B /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5C12E1A72AFE8A870026F84B /* Sitting */ = {
+			isa = PBXGroup;
+			children = (
+				5C12E1792AFE01580026F84B /* MainTabBar.swift */,
+				5C12E1B22B0201AA0026F84B /* Search */,
+				5C12E1A82AFE8AB10026F84B /* SettingViewController.swift */,
+				5C12E1AA2AFE956B0026F84B /* AboutViewController.swift */,
+			);
+			path = Sitting;
+			sourceTree = "<group>";
+		};
+		5C12E1B22B0201AA0026F84B /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				5C12E1B32B0201CA0026F84B /* SearchViewController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		5CF4F3152B03EB7E008C9B09 /* Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				5C12E1622AFDFD2A0026F84B /* QuizViewController.swift */,
+			);
+			path = Quiz;
+			sourceTree = "<group>";
+		};
+		8F1863F9D82D52A30159999D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2329DBD431BF0992583F7A00 /* Pods_Cars.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93D5E1682E85445C982D77E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				35D264C59232ACD090721D47 /* Pods-Cars.debug.xcconfig */,
+				57CEA9DE6D581EBB90D267C1 /* Pods-Cars.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C12E15A2AFDFD2A0026F84B /* Curres Volantes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C12E16F2AFDFD2C0026F84B /* Build configuration list for PBXNativeTarget "Curres Volantes" */;
+			buildPhases = (
+				A54A3C450D2B822EF0E40C4D /* [CP] Check Pods Manifest.lock */,
+				5C12E1572AFDFD2A0026F84B /* Sources */,
+				5C12E1582AFDFD2A0026F84B /* Frameworks */,
+				5C12E1592AFDFD2A0026F84B /* Resources */,
+				17FEC13CD9C90B6053FE0532 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Curres Volantes";
+			productName = Cars;
+			productReference = 5C12E15B2AFDFD2A0026F84B /* Curres Volantes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C12E1532AFDFD2A0026F84B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					5C12E15A2AFDFD2A0026F84B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 5C12E1562AFDFD2A0026F84B /* Build configuration list for PBXProject "Curres Volantes" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C12E1522AFDFD2A0026F84B;
+			productRefGroup = 5C12E15C2AFDFD2A0026F84B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C12E15A2AFDFD2A0026F84B /* Curres Volantes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C12E1592AFDFD2A0026F84B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C12E16B2AFDFD2C0026F84B /* LaunchScreen.storyboard in Resources */,
+				5C12E19E2AFE01AE0026F84B /* cars.json in Resources */,
+				5C12E1682AFDFD2C0026F84B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17FEC13CD9C90B6053FE0532 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cars/Pods-Cars-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cars/Pods-Cars-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cars/Pods-Cars-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A54A3C450D2B822EF0E40C4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cars-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C12E1572AFDFD2A0026F84B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C12E1A12AFE02680026F84B /* Model.swift in Sources */,
+				5C12E1A92AFE8AB10026F84B /* SettingViewController.swift in Sources */,
+				5C12E1632AFDFD2A0026F84B /* QuizViewController.swift in Sources */,
+				5C12E1B12AFF450C0026F84B /* CellTappedViewController.swift in Sources */,
+				5C12E15F2AFDFD2A0026F84B /* AppDelegate.swift in Sources */,
+				5C12E1932AFE01A00026F84B /* BaseViewController.swift in Sources */,
+				5C12E17C2AFE01580026F84B /* HomeTableViewCell.swift in Sources */,
+				5C12E1942AFE01A00026F84B /* BaseTableViewCell.swift in Sources */,
+				5C12E1972AFE01A00026F84B /* BaseCollectionViewCell.swift in Sources */,
+				5C12E1992AFE01A00026F84B /* BaseModels.swift in Sources */,
+				5C12E19C2AFE01A00026F84B /* BaseView.swift in Sources */,
+				5C12E1952AFE01A00026F84B /* BaseUtilities.swift in Sources */,
+				5C12E1962AFE01A00026F84B /* BaseExtensions.swift in Sources */,
+				5C12E19B2AFE01A00026F84B /* BaseDefaultViews.swift in Sources */,
+				5C12E1982AFE01A00026F84B /* BColor.swift in Sources */,
+				5C12E1B42B0201CA0026F84B /* SearchViewController.swift in Sources */,
+				5C12E1902AFE01A00026F84B /* BAttr.swift in Sources */,
+				5C12E1922AFE01A00026F84B /* BaseCustomViews.swift in Sources */,
+				5C12E17D2AFE01580026F84B /* MainTabBar.swift in Sources */,
+				5C12E1612AFDFD2A0026F84B /* SceneDelegate.swift in Sources */,
+				5C12E17E2AFE01580026F84B /* HomeViewController.swift in Sources */,
+				5C12E1912AFE01A00026F84B /* BaseFonts.swift in Sources */,
+				5C12E19A2AFE01A00026F84B /* TestViewController.swift in Sources */,
+				5C12E17F2AFE01580026F84B /* OldCarsCollectionViewCell.swift in Sources */,
+				5C12E1AB2AFE956B0026F84B /* AboutViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5C12E1692AFDFD2C0026F84B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C12E16A2AFDFD2C0026F84B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C12E16D2AFDFD2C0026F84B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C12E16E2AFDFD2C0026F84B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C12E1702AFDFD2C0026F84B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35D264C59232ACD090721D47 /* Pods-Cars.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cars/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Diyorbek.com.Cars;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C12E1712AFDFD2C0026F84B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57CEA9DE6D581EBB90D267C1 /* Pods-Cars.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cars/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Diyorbek.com.Cars;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C12E1562AFDFD2A0026F84B /* Build configuration list for PBXProject "Curres Volantes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C12E16D2AFDFD2C0026F84B /* Debug */,
+				5C12E16E2AFDFD2C0026F84B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C12E16F2AFDFD2C0026F84B /* Build configuration list for PBXNativeTarget "Curres Volantes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C12E1702AFDFD2C0026F84B /* Debug */,
+				5C12E1712AFDFD2C0026F84B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C12E1532AFDFD2A0026F84B /* Project object */;
+}
